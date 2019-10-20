@@ -128,6 +128,13 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+/* Banner Background and Text Colors */
+
+#banner-about {
+    background: url("../images/banner-images/banner-image-2.PNG") no-repeat center top;
+    background-size:cover;
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
