@@ -10,7 +10,6 @@ export class CadOfertaInvComponent implements OnInit {
   in_str_valor: string;
   in_str_remuneracao: string;
 
-
   constructor() { }
 
   ngOnInit() {
