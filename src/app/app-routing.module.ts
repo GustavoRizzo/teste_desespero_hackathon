@@ -11,6 +11,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { HeaderComponent } from './header/header.component';
 import { ControleClassicoComponent } from './controle-classico/controle-classico.component';
 import { TesteMaterialComponent } from './teste-material/teste-material.component';
+import { CadFinanciamentoComponent } from './cad-financiamento/cad-financiamento.component';
 
 const routes: Routes =[
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -22,7 +23,8 @@ const routes: Routes =[
   { path: 'clients', component: ClientsComponent},
   { path: 'pricing', component: PricingComponent },
   { path: 'controle-classico', component: ControleClassicoComponent},
-  { path: 'teste-material', component: TesteMaterialComponent}
+  { path: 'teste-material', component: TesteMaterialComponent},
+  { path: 'CadFinan' , component: CadFinanciamentoComponent}
 ];
 
 @NgModule({

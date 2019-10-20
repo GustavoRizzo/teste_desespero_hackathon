@@ -25,6 +25,7 @@ import { ControleClassicoComponent } from './controle-classico/controle-classico
 //Serviços
 import { ApiControleClassicoService } from './services/api-controle-classico.service';
 import { TesteMaterialComponent } from './teste-material/teste-material.component';
+import { CadFinanciamentoComponent } from './cad-financiamento/cad-financiamento.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { TesteMaterialComponent } from './teste-material/teste-material.componen
     SocialComponent,
     NavegationComponent,
     ControleClassicoComponent,
-    TesteMaterialComponent
+    TesteMaterialComponent,
+    CadFinanciamentoComponent
   ],
   imports: [
     BrowserModule,
