@@ -26,6 +26,7 @@ import { ControleClassicoComponent } from './controle-classico/controle-classico
 import { ApiControleClassicoService } from './services/api-controle-classico.service';
 import { TesteMaterialComponent } from './teste-material/teste-material.component';
 import { CadFinanciamentoComponent } from './cad-financiamento/cad-financiamento.component';
+import { CadOfertaInvComponent } from './cad-oferta-inv/cad-oferta-inv.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { CadFinanciamentoComponent } from './cad-financiamento/cad-financiamento
     NavegationComponent,
     ControleClassicoComponent,
     TesteMaterialComponent,
-    CadFinanciamentoComponent
+    CadFinanciamentoComponent,
+    CadOfertaInvComponent
   ],
   imports: [
     BrowserModule,
