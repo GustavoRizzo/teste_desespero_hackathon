@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-cad-financiamento',
   templateUrl: './cad-financiamento.component.html',
   styleUrls: ['./cad-financiamento.component.css']

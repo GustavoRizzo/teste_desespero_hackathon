@@ -23,6 +23,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 
 /*
 @Component({
+  standalone: false,
   selector: 'app-teste-material',
   templateUrl: './teste-material.component.html',
   styleUrls: ['./teste-material.component.css']
@@ -37,6 +38,7 @@ export class TesteMaterialComponent implements OnInit {
 }
 */
 @Component({
+  standalone: false,
   selector: 'app-teste-material',
   templateUrl: './teste-material.component.html',
   styleUrls: ['./teste-material.component.css']

@@ -3,6 +3,7 @@ import { ApiControleClassicoService } from '../services/api-controle-classico.se
 import { Observable } from '../../../node_modules/rxjs';
 
 @Component({
+  standalone: false,
   selector: 'app-controle-classico',
   templateUrl: './controle-classico.component.html',
   styleUrls: ['./controle-classico.component.css']

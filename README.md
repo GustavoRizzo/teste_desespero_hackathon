@@ -27,4 +27,6 @@ $ docker image build -t website-prd .
 $ docker run -p 6200:80 --rm website-prd
 ```
 
+## Notas de Atualização
+**Nota (01/07/2026):** As bibliotecas do projeto foram atualizadas para o Angular v22 nesta data a fim de corrigir diversas vulnerabilidades de segurança que existiam no ecossistema v6 legado.
 

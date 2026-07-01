@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-navegation',
   templateUrl: './navegation.component.html',
   styleUrls: ['./navegation.component.css']
