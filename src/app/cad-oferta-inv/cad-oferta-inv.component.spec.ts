@@ -1,17 +1,17 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CadOfertaInvComponent } from './cad-oferta-inv.component';
+import { AppModule } from '../app.module';
 
 describe('CadOfertaInvComponent', () => {
   let component: CadOfertaInvComponent;
   let fixture: ComponentFixture<CadOfertaInvComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ CadOfertaInvComponent ]
-    })
-    .compileComponents();
-  }));
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [ AppModule ]
+    }).compileComponents();
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(CadOfertaInvComponent);
